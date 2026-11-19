@@ -5,6 +5,12 @@ const labs = [
   // { title: "Your Lab Title", description: "What you analyzed and learned.", url: "labs/your-lab.html", tag: "PYTHON" },
 ];
 const summaries = [
+  { title: "Waze Executive Summary 1", url: "summaries/Waze-1-Executive-Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 2", url: "summaries/Waze-2-Executive-Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 3", url: "summaries/Waze-3-Executive-Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 4", url: "summaries/Waze-4-Executive-Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 5", url: "summaries/Waze-5-Executive-Summary.pdf", tag: "REPORT" },
+  { title: "Waze Capstone Executive Summary", url: "summaries/Waze-6-Executive-Summary.pdf", tag: "REPORT" },
   // { title: "Your Executive Summary", description: "Key insights and business recommendations.", url: "summaries/your-summary.html", tag: "REPORT" },
 ];
 function renderProjects(id, items, type) {
