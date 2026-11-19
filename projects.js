@@ -5,12 +5,12 @@ const labs = [
   // { title: "Your Lab Title", description: "What you analyzed and learned.", url: "labs/your-lab.html", tag: "PYTHON" },
 ];
 const summaries = [
-  { title: "Waze Executive Summary 1", url: "Waze-1-Executive-Summary.pdf", tag: "REPORT" },
-  { title: "Waze Executive Summary 2", url: "Waze-2-Executive-Summary.pdf", tag: "REPORT" },
-  { title: "Waze Executive Summary 3", url: "Waze-3-Executive-Summary.pdf", tag: "REPORT" },
-  { title: "Waze Executive Summary 4", url: "Waze-4-Executive-Summary.pdf", tag: "REPORT" },
-  { title: "Waze Executive Summary 5", url: "Waze-5-Executive-Summary.pdf", tag: "REPORT" },
-  { title: "Waze Capstone Executive Summary", url: "Waze-6-Executive-Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 1", url: "Waze 1 Executive Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 2", url: "Waze 2 Executive Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 3", url: "Waze 3 Executive Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 4", url: "Waze 4 Executive Summary.pdf", tag: "REPORT" },
+  { title: "Waze Executive Summary 5", url: "Waze 5 Executive Summary.pdf", tag: "REPORT" },
+  { title: "Waze Capstone Executive Summary", url: "Waze 6 Executive Summary.pdf", tag: "REPORT" },
   // { title: "Your Executive Summary", description: "Key insights and business recommendations.", url: "summaries/your-summary.html", tag: "REPORT" },
 ];
 function renderProjects(id, items, type) {
