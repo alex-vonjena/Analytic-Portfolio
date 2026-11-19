@@ -10,7 +10,8 @@ const summaries = [
   { title: "Waze Executive Summary 3", url: "Waze 3 Executive Summary.pdf", tag: "REPORT" },
   { title: "Waze Executive Summary 4", url: "Waze 4 Executive Summary.pdf", tag: "REPORT" },
   { title: "Waze Executive Summary 5", url: "Waze 5 Executive Summary.pdf", tag: "REPORT" },
-  { title: "Waze Capstone Executive Summary", url: "Waze 6 Executive Summary.pdf", tag: "REPORT" },
+  { title: "Capstone PACE Strategy Document", url: "Capstone PACE Strategy Document.pdf", tag: "REPORT" },
+  { title: "Capstone Executive Summary", url: "Capstone Executive Summary.pdf", tag: "REPORT" }
   // { title: "Your Executive Summary", description: "Key insights and business recommendations.", url: "summaries/your-summary.html", tag: "REPORT" },
 ];
 function renderProjects(id, items, type) {
