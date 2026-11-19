@@ -1,8 +1,12 @@
 // Add your own HTML or PDF documents below. Put files in the "labs" and
 // "summaries" folders and update each URL to match the filename exactly.
 // Example: { title: "Data Cleaning Lab", description: "Python and pandas data preparation.", url: "labs/data-cleaning.html", tag: "PYTHON" }
-const labs = [
-  // { title: "Your Lab Title", description: "What you analyzed and learned.", url: "labs/your-lab.html", tag: "PYTHON" },
+const labs = [{ title: "Waze Project Lab 1", description: "Exploratory Data Analysis & PACE Workflow ", url: "Waze Project Lab 1.html", tag: "PYTHON" },
+              { title: "Waze Project Lab 2", description: "Data Cleaning & Visualizations", url: "Waze Project Lab 2.html", tag: "PYTHON" },
+              { title: "Waze Project Lab 3", description: "Probability, Sampling, Confidence Intervals & Hypothesis Testing", url: "Waze Project Lab 3.html", tag: "PYTHON" },
+              { title: "Waze Project Lab 4", description: "Regression Analysis", url: "Waze Project Lab 4.html", tag: "PYTHON" },
+              { title: "Waze Project Lab 5", description: "Machine Learning", url: "Waze Project Lab 5.html", tag: "PYTHON" },
+              { title: "Capstone Project Lab", description: "This lab yields data driven insights about an HR department looking for reasons why an employee is likely to leave the company. It incorporates key concepts from each of the five preceding labs. ", url: "Capstone Project Lab.html", tag: "PYTHON" },
 ];
 const summaries = [
   { title: "Waze Executive Summary 1", url: "Waze 1 Executive Summary.pdf", tag: "REPORT" },
@@ -12,7 +16,6 @@ const summaries = [
   { title: "Waze Executive Summary 5", url: "Waze 5 Executive Summary.pdf", tag: "REPORT" },
   { title: "Capstone PACE Strategy Document", url: "Capstone PACE Strategy Document.pdf", tag: "REPORT" },
   { title: "Capstone Executive Summary", url: "Capstone Executive Summary.pdf", tag: "REPORT" }
-  // { title: "Your Executive Summary", description: "Key insights and business recommendations.", url: "summaries/your-summary.html", tag: "REPORT" },
 ];
 function renderProjects(id, items, type) {
   const container = document.getElementById(id);
